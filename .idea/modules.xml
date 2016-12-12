@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CH10_01_HttpClient_POST/CH10_01_HttpClient_POST.iml" filepath="$PROJECT_DIR$/CH10_01_HttpClient_POST/CH10_01_HttpClient_POST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CH10_01_HttpUrlConnection_GET/CH10_01_HttpUrlConnection_GET.iml" filepath="$PROJECT_DIR$/CH10_01_HttpUrlConnection_GET/CH10_01_HttpUrlConnection_GET.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CH10_Network.iml" filepath="$PROJECT_DIR$/CH10_Network.iml" />
+    </modules>
+  </component>
+</project>

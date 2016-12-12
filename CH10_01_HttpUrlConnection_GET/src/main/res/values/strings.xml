@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CH10_01_HttpUrlConnection_GET</string>
+    <string name="image_url_get">http://goo.gl/bL8Cyr</string>
+</resources>

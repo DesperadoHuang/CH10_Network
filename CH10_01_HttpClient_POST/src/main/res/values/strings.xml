@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CH10_01_HttpClient_POST</string>
+    <string name="image_url_post">http://10.0.3.2:8080/Android_L/upload.jsp</string>
+</resources>
