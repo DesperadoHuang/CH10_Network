@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CH10_01_HttpClient_POST" />
             <option value="$PROJECT_DIR$/CH10_01_HttpUrlConnection_GET" />
+            <option value="$PROJECT_DIR$/CH10_02_SPDY_OkHttp_1.1" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CH10_01_HttpClient_POST/CH10_01_HttpClient_POST.iml" filepath="$PROJECT_DIR$/CH10_01_HttpClient_POST/CH10_01_HttpClient_POST.iml" />
       <module fileurl="file://$PROJECT_DIR$/CH10_01_HttpUrlConnection_GET/CH10_01_HttpUrlConnection_GET.iml" filepath="$PROJECT_DIR$/CH10_01_HttpUrlConnection_GET/CH10_01_HttpUrlConnection_GET.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CH10_02_SPDY_OkHttp_1.1/CH10_02_SPDY_OkHttp_1.1.iml" filepath="$PROJECT_DIR$/CH10_02_SPDY_OkHttp_1.1/CH10_02_SPDY_OkHttp_1.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/CH10_Network.iml" filepath="$PROJECT_DIR$/CH10_Network.iml" />
     </modules>
   </component>

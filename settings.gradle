@@ -1,1 +1,1 @@
-include ':CH10_01_HttpUrlConnection_GET', ':CH10_01_HttpClient_POST'
+include ':CH10_01_HttpUrlConnection_GET', ':CH10_01_HttpClient_POST', ':CH10_02_SPDY_OkHttp_1.1'
