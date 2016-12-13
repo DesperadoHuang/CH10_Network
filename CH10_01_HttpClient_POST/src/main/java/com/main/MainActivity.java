@@ -43,27 +43,24 @@ public class MainActivity extends Activity {
         public void run() {
             String imageStr = imageToString(mImageView);
             Log.i("mytest", "1");
-            ArrayList<NameValuePair> pairs = new ArrayList<NameValuePair>();
+            ArrayList<NameValuePair> pairs = new ArrayList<NameValuePair>();//建立NameValuePair集合作為POST參數
             pairs.add(new BasicNameValuePair("imageStr", imageStr));
             try {
+                //↓↓↓利用AndroidHttpClient搭配HttpPost上傳資料
                 String user_agent = System.getProperty("http_agent");
                 HttpClient mHttpClient = AndroidHttpClient.newInstance(user_agent);
-                HttpPost mHttpPost = new HttpPost(getResources().getString(R.string.image_url_post));
-                Log.i("mytest", "2");
-                mHttpPost.setEntity(new UrlEncodedFormEntity(pairs));
-                Log.i("mytest", "3");
+                HttpPost mHttpPost = new HttpPost(getResources().getString(R.string.image_url_post));//設定POST上傳路徑
+                mHttpPost.setEntity(new UrlEncodedFormEntity(pairs));//將參數集合pairs編碼並提交
                 HttpResponse mHttpResponse = mHttpClient.execute(mHttpPost);
-                Log.i("mytest", "4");
                 final String status = mHttpResponse.getStatusLine().toString();
-                Log.i("mytest", status);
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
                         Toast.makeText(mContext, "上傳成功!" + status, Toast.LENGTH_SHORT).show();
                     }
                 });
+
             } catch (Exception e) {
-                Log.i("mytest", "Execption" + e.toString());
                 e.printStackTrace();
             }
         }
