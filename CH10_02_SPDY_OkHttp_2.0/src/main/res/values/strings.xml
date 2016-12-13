@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CH10_02_SPDY_OkHttp_2.0</string>
+    <string-array name="image_urls_get">
+        <item>http://i135.photobucket.com/albums/q123/ccsalan92002/scenic_photo/D1.jpg</item>
+        <item>http://i135.photobucket.com/albums/q123/ccsalan92002/scenic_photo/D2.jpg</item>
+        <item>http://i135.photobucket.com/albums/q123/ccsalan92002/scenic_photo/C3.jpg</item>
+        <item>http://i135.photobucket.com/albums/q123/ccsalan92002/scenic_photo/C4.jpg</item>
+        <item>http://i135.photobucket.com/albums/q123/ccsalan92002/scenic_photo/C5.jpg</item>
+    </string-array>
+</resources>

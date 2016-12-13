@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void handleMessage(Message msg) {
                 double sum = (Double) msg.obj;
-                setTitle(sum + " %");
+                setTitle((int) sum + " %");
             }
         };
         private Bitmap mBitmap;
