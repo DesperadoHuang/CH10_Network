@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         imageView.setImageBitmap(bitmap);
-                        imageView.setAdjustViewBounds(true);
+//                        imageView.setAdjustViewBounds(true);
                         mImageLayout.removeView(progressBar);
                     }
                 });
