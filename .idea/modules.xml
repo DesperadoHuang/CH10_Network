@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/CH10_02_SPDY_OkHttp_1.1/CH10_02_SPDY_OkHttp_1.1.iml" filepath="$PROJECT_DIR$/CH10_02_SPDY_OkHttp_1.1/CH10_02_SPDY_OkHttp_1.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/CH10_02_SPDY_OkHttp_2.0/CH10_02_SPDY_OkHttp_2.0.iml" filepath="$PROJECT_DIR$/CH10_02_SPDY_OkHttp_2.0/CH10_02_SPDY_OkHttp_2.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/CH10_03_Volley/CH10_03_Volley.iml" filepath="$PROJECT_DIR$/CH10_03_Volley/CH10_03_Volley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CH10_03_Volley_LurCache/CH10_03_Volley_LurCache.iml" filepath="$PROJECT_DIR$/CH10_03_Volley_LurCache/CH10_03_Volley_LurCache.iml" />
       <module fileurl="file://$PROJECT_DIR$/CH10_Network.iml" filepath="$PROJECT_DIR$/CH10_Network.iml" />
     </modules>
   </component>
