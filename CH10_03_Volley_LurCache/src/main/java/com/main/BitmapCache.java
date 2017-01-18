@@ -16,6 +16,8 @@ public class BitmapCache implements ImageLoader.ImageCache {
     public BitmapCache() {
         int maxMemory = (int) Runtime.getRuntime().maxMemory();
         int cacheSize = maxMemory / 8;
+
+        //初始化並設定cache大小
         mBitmapLruCache = new LruCache<String, Bitmap>(cacheSize) {
             @Override
             protected int sizeOf(String key, Bitmap value) {
